@@ -1,6 +1,6 @@
 {
   "name": "probedock-demo-karma",
-  "description": "Demo of Probe Dock integration with Jasmine through Karma.",
+  "description": "Demo of Probe Dock integration with Karma.",
   "version": "0.1.0",
   "author": {
     "name": "Laurent Prevost",
