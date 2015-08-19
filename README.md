@@ -1,6 +1,6 @@
 # probedock-demo-karma
 
-> Demo of integration with [Probe Dock](https://github.com/probedock/probedock) and [Probe Dock RT](https://github.com/probedock/probedock-rt) for Jasmine/Karma.
+> Demo of integration with [Probe Dock](https://github.com/probedock/probedock) for Jasmine/Karma.
 
 ## Requirements
 
