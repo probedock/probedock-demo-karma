@@ -1,0 +1,35 @@
+{
+  "name": "probedock-demo-karma",
+  "description": "Demo of Probe Dock integration with Jasmine through Karma.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Laurent Prevost",
+    "email": "laurent.prevost@probedock.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/probedock/probedock-demo-karma"
+  },
+  "keywords": [
+    "probedock",
+    "demo",
+    "karma",
+    "jasmine"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
+  },
+  "dependencies": {
+  }
+}

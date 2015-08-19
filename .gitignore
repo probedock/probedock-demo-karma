@@ -1,0 +1,6 @@
+logs
+*.log
+.grunt
+node_modules
+.idea
+.probedock.yml
