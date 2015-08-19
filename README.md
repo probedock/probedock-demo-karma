@@ -1,6 +1,8 @@
 # probedock-demo-karma
 
-> Demo of integration with [Probe Dock](https://github.com/probedock/probedock) for Jasmine/Karma.
+> Demo of integration with [Probe Dock](https://github.com/probedock/probedock) for Karma.
+
+In this demo, we use Jasmine as the test framewort but any other Karma compatible test framework is ok.
 
 ## Requirements
 
