@@ -1,5 +1,6 @@
-// probedock: { contributors: 'laurent.prevost@probedock.io', tickets: [ 'feature-1', 'feature-2', 'feature-3', 'feature-4' ], tags: 'mixed' }
-describe ('Mixed operations', function() {
+'use strict';
+
+describe ('Mixed operations @probedock(contributor=laurent.prevost@probedock.io ticket=feature-1 ticket=feature-2 ticket=feature-3 ticket=feature-4 tag=mixed)', function() {
 	it ('should allow to mix different operations', function() {
 		// 5 / ((20 + (0 - 10)) / (1 * 2)) = 1
 		expect(

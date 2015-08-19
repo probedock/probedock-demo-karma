@@ -18,16 +18,25 @@ module.exports = function(config) {
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: false,
 
+    reporters: ['probedock'],
+
+    // customize the configuration
+    probedock: {
+      config: {
+        project: {
+          category: 'Karma'
+        }
+      }
+    },
+
     // Start these browsers, currently available:
-    // - Chrome
-    // - ChromeCanary
-    // - Firefox
-    // - Opera
-    // - Safari (only Mac)
-    // - PhantomJS
-    // - IE (only Windows)
     browsers: ['PhantomJS'],
 
+    plugins: [
+      'karma-jasmine',
+      'karma-phantomjs-launcher',
+      'probedock-karma'
+    ],
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
