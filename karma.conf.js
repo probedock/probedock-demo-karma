@@ -18,7 +18,7 @@ module.exports = function(config) {
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: false,
 
-    reporters: ['probedock'],
+    reporters: ['probedock', 'junit'],
 
     // customize the configuration
     probedock: {
@@ -29,12 +29,20 @@ module.exports = function(config) {
       }
     },
 
+    junitReporter: {
+      outputDir: '',
+      outputFile: 'karma-test-results.xml',
+      suite: 'karma',
+      useBrowserName: false
+    },
+
     // Start these browsers, currently available:
     browsers: ['PhantomJS'],
 
     plugins: [
       'karma-jasmine',
       'karma-phantomjs-launcher',
+      'karma-junit-reporter',
       'probedock-karma'
     ],
 
